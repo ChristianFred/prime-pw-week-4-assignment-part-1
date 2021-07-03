@@ -69,7 +69,26 @@ getLast(array2);
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
+let array3 =['A','B','C','D','E'];
+let array4 =[1,2,3,4,5];
 
+function find(value,array){
+for( let item of value){
+  if ( item > 0 ){
+    return true;
+    }
+  else if (item == 0 ){
+    return true;
+    }
+  else if ( item < 0){
+    return true;
+    }
+  else if (item === null){
+    }
+  }
+}
+console.log(find(array3));
+console.log(find(array4));
 // ----------------------
 // Stretch Goals
 // ----------------------
